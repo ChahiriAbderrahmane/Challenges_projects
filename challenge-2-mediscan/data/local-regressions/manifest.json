@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "synthetic_only": false,
+  "note": "Private user-supplied packaging image, referenced in place. Not redistributed/copied into the synthetic dataset; origin URL and artwork rights have not been established. Development regression, not a held-out accuracy benchmark.",
+  "images": [
+    {
+      "image_id": "user-doliprane-1000mg-8-sachets",
+      "path": "doliprane-1000-mg-8-sachets-9261.dsGPD15_Z9IFisZmfHVEVVw5uGg.png",
+      "sha256": "96a787c7eb6c857ed88db435251e2c9da6edec575cba28d0d449c5dbd3543c47",
+      "family_id": "user-doliprane-packshot-01",
+      "split": "dev",
+      "language": "fr",
+      "condition": "perspective_coloured_packaging_mixed_font_sizes",
+      "kind": "user_supplied_packaging_image",
+      "product_id": "fr-cip-3400936246980",
+      "fields": {"strength": "1000 mg", "form": "powder_oral_solution", "pack_size": 8},
+      "transcription": null,
+      "transcription_source": "Identifier fields manually checked against visible image and BDPM. No exhaustive text transcription; exclude from CER/WER.",
+      "provenance": "Provided locally by user on 2026-10-27; not uploaded to an external OCR service.",
+      "rights": "Original packaging artwork rights and source URL unknown; private regression only. Catalogue identity facts are sourced separately under the BDPM open licence."
+    }
+  ]
+}

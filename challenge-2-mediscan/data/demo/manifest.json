@@ -1,0 +1,1777 @@
+{
+  "version": 1,
+  "synthetic_only": true,
+  "images": [
+    {
+      "image_id": "demo-01-100-fr-dev",
+      "path": "data/demo/images/demo-01-100-fr-dev.png",
+      "sha256": "d27fca61da24269aa2749dbecef067ebd4325d0a16b863f5f67540e2d39fc288",
+      "family_id": "demo-01-100-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Zefrano\n100 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-100-ar-dev",
+      "path": "data/demo/images/demo-01-100-ar-dev.png",
+      "sha256": "00dfaa5197bd5f9aa8f384a032ed1ef9939c64f1fd090ef2da526b1829fe0fd9",
+      "family_id": "demo-01-100-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "زفرانو\n١٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-100-fr-test",
+      "path": "data/demo/images/demo-01-100-fr-test.png",
+      "sha256": "3258b2ae78bfbcda6d98970518d8eb7bb4515dd4882d20723fcc13a69cf9161f",
+      "family_id": "demo-01-100-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Zefrano\n100 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-100-ar-test",
+      "path": "data/demo/images/demo-01-100-ar-test.png",
+      "sha256": "ad0ab2e9219da674d518aa2c25c080d685f96ef6603d0c117d8c1098922ab54c",
+      "family_id": "demo-01-100-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "زفرانو\n١٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-fr-dev",
+      "path": "data/demo/images/demo-01-250-fr-dev.png",
+      "sha256": "18bb5397f99664a797c95697b3a7200c8d648626c8be4cd88a22fbbd6c49d80d",
+      "family_id": "demo-01-250-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Zefrano\n250 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-ar-dev",
+      "path": "data/demo/images/demo-01-250-ar-dev.png",
+      "sha256": "efa52e08872ddd867b7a7f4e2c7fb814cdffc0c0b9eecfcf80648c1843a1b11c",
+      "family_id": "demo-01-250-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "زفرانو\n٢٥٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-fr-test",
+      "path": "data/demo/images/demo-01-250-fr-test.png",
+      "sha256": "bd744e1dc8bf21ebe3b3cc8d9ef3e5b049d9f522195e5f2a7dd54fc97c05ec1c",
+      "family_id": "demo-01-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Zefrano\n250 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-fr-test-rotation90",
+      "path": "data/demo/images/demo-01-250-fr-test-rotation90.png",
+      "sha256": "139d75808e75c50d3507913ad796e325f455cec58fd84eec9de3b9e1eef8f167",
+      "family_id": "demo-01-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "rotation90",
+      "kind": "synthetic_degradation",
+      "transcription": "Zefrano\n250 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-fr-test-blur",
+      "path": "data/demo/images/demo-01-250-fr-test-blur.png",
+      "sha256": "802390412b1aa9ceb996dbab84e8e7215a8bbeee454ae6cb2feb3d160543238a",
+      "family_id": "demo-01-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "blur",
+      "kind": "synthetic_degradation",
+      "transcription": "Zefrano\n250 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-fr-test-low_contrast",
+      "path": "data/demo/images/demo-01-250-fr-test-low_contrast.png",
+      "sha256": "52670b72d84f35e5218cae1421c494d0fada156f8a4bbe9a79adbecb8eae8923",
+      "family_id": "demo-01-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "low_contrast",
+      "kind": "synthetic_degradation",
+      "transcription": "Zefrano\n250 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-fr-test-uneven_lighting",
+      "path": "data/demo/images/demo-01-250-fr-test-uneven_lighting.png",
+      "sha256": "72578b423e2bb19d5e0c910fb4149fa0270e28113a4bec659510c6e23ace6374",
+      "family_id": "demo-01-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "uneven_lighting",
+      "kind": "synthetic_degradation",
+      "transcription": "Zefrano\n250 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-fr-test-partial",
+      "path": "data/demo/images/demo-01-250-fr-test-partial.png",
+      "sha256": "657dd250b18e15cbc4f0f60112119a6695b6127cd97825935bc99118e054bc42",
+      "family_id": "demo-01-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "partial",
+      "kind": "synthetic_degradation",
+      "transcription": "Zefrano",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-ar-test",
+      "path": "data/demo/images/demo-01-250-ar-test.png",
+      "sha256": "4d1e7e4bbcb01eb26f0cab95a013be3ef0c18465dd7aff562599332848ab99c9",
+      "family_id": "demo-01-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "زفرانو\n٢٥٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-ar-test-rotation90",
+      "path": "data/demo/images/demo-01-250-ar-test-rotation90.png",
+      "sha256": "490c129a96845870dd6539acfe7b2442796b95d8477df51bd6a3e419ac5805f4",
+      "family_id": "demo-01-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "rotation90",
+      "kind": "synthetic_degradation",
+      "transcription": "زفرانو\n٢٥٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-ar-test-blur",
+      "path": "data/demo/images/demo-01-250-ar-test-blur.png",
+      "sha256": "f314177240a80e977e4a12b842b14dc7fcff1cdf857b1e43b2261d9c6b05eaf5",
+      "family_id": "demo-01-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "blur",
+      "kind": "synthetic_degradation",
+      "transcription": "زفرانو\n٢٥٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-ar-test-low_contrast",
+      "path": "data/demo/images/demo-01-250-ar-test-low_contrast.png",
+      "sha256": "4554d6b5d19cfe606b621b4532791f20d3b23e62c1cf61be904c31b47b333e7e",
+      "family_id": "demo-01-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "low_contrast",
+      "kind": "synthetic_degradation",
+      "transcription": "زفرانو\n٢٥٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-ar-test-uneven_lighting",
+      "path": "data/demo/images/demo-01-250-ar-test-uneven_lighting.png",
+      "sha256": "37ea8731b978ea7f4ec40b95ca0a513ce12c5374fa777a860a951974f5d39f14",
+      "family_id": "demo-01-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "uneven_lighting",
+      "kind": "synthetic_degradation",
+      "transcription": "زفرانو\n٢٥٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-250-ar-test-partial",
+      "path": "data/demo/images/demo-01-250-ar-test-partial.png",
+      "sha256": "dd54d567266824fa257067e39e0309eb32d543f8707ac76345f0d06515d76d14",
+      "family_id": "demo-01-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "partial",
+      "kind": "synthetic_degradation",
+      "transcription": "زفرانو",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-250",
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-500-fr-dev",
+      "path": "data/demo/images/demo-01-500-fr-dev.png",
+      "sha256": "7e7673b9f985957a9e031ca163eac73c1b2f12514e4d30cec7273c8fbd1229f2",
+      "family_id": "demo-01-500-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Zefrano\n500 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-500-ar-dev",
+      "path": "data/demo/images/demo-01-500-ar-dev.png",
+      "sha256": "ed682ed110637c527453c5351eb5b423e13545963bd82cdc6c7ac9d4ea949e89",
+      "family_id": "demo-01-500-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "زفرانو\n٥٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-500-fr-test",
+      "path": "data/demo/images/demo-01-500-fr-test.png",
+      "sha256": "da4932984b476d5717fc261a3249d60b7bd40bc62b1d184a17521a0997281c7c",
+      "family_id": "demo-01-500-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Zefrano\n500 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-01-500-ar-test",
+      "path": "data/demo/images/demo-01-500-ar-test.png",
+      "sha256": "4dbabd27e09bc2b4be05e9fcc6190bc027e5630a63389f4446802ec185d2cf04",
+      "family_id": "demo-01-500-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "زفرانو\n٥٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-01-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-100-fr-dev",
+      "path": "data/demo/images/demo-02-100-fr-dev.png",
+      "sha256": "23ed6f03812bc618b6e7fdfbb3b3a49199a8b6495ea832a592fd2581a70f8783",
+      "family_id": "demo-02-100-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Lumavex\n100 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-100-ar-dev",
+      "path": "data/demo/images/demo-02-100-ar-dev.png",
+      "sha256": "4371bc5451246bb1d85a8b145e77f1e5eb7fdea5d12362298804ae0793105bfd",
+      "family_id": "demo-02-100-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "لومافكس\n١٠٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-100-fr-test",
+      "path": "data/demo/images/demo-02-100-fr-test.png",
+      "sha256": "a1b0c7927dfaa4f022d3278fac426c607c3c8d939529e01f680ce2bbf0a8b27a",
+      "family_id": "demo-02-100-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Lumavex\n100 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-100-ar-test",
+      "path": "data/demo/images/demo-02-100-ar-test.png",
+      "sha256": "ae0068ed9c7ad5aa356ad452e706a3a9d25f31f64679267cdeefc692c2932b9d",
+      "family_id": "demo-02-100-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "لومافكس\n١٠٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-fr-dev",
+      "path": "data/demo/images/demo-02-250-fr-dev.png",
+      "sha256": "b9630249ae65ea149d37f3536164212f6816c45bac27859142b0a3427aae7d78",
+      "family_id": "demo-02-250-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Lumavex\n250 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-ar-dev",
+      "path": "data/demo/images/demo-02-250-ar-dev.png",
+      "sha256": "46c5b9fb9ce8340c708009c8c829aa38c619a30ad99e222940c47bd2ace4e7c2",
+      "family_id": "demo-02-250-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "لومافكس\n٢٥٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-fr-test",
+      "path": "data/demo/images/demo-02-250-fr-test.png",
+      "sha256": "2b5ab4799d087edd9bc6b427df8a40d3aa4e607de4688d0355bb3403b01f2b8b",
+      "family_id": "demo-02-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Lumavex\n250 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-fr-test-rotation90",
+      "path": "data/demo/images/demo-02-250-fr-test-rotation90.png",
+      "sha256": "f6eca12ed51a43845409a99703574184898d5cb43034e1959469149399758ed1",
+      "family_id": "demo-02-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "rotation90",
+      "kind": "synthetic_degradation",
+      "transcription": "Lumavex\n250 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-fr-test-blur",
+      "path": "data/demo/images/demo-02-250-fr-test-blur.png",
+      "sha256": "ac187c6df36b543058c16b30d1248dde481f6035e74b3aac5f6c071e9fa6363c",
+      "family_id": "demo-02-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "blur",
+      "kind": "synthetic_degradation",
+      "transcription": "Lumavex\n250 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-fr-test-low_contrast",
+      "path": "data/demo/images/demo-02-250-fr-test-low_contrast.png",
+      "sha256": "44f2ef888354721470c235030702674fb8e104ac152acf09401c625861774477",
+      "family_id": "demo-02-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "low_contrast",
+      "kind": "synthetic_degradation",
+      "transcription": "Lumavex\n250 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-fr-test-uneven_lighting",
+      "path": "data/demo/images/demo-02-250-fr-test-uneven_lighting.png",
+      "sha256": "6df52a74e9d5d41e1d46be359ca4b039d3d830bb6f6b6310e2970ce5e7c2d3cc",
+      "family_id": "demo-02-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "uneven_lighting",
+      "kind": "synthetic_degradation",
+      "transcription": "Lumavex\n250 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-fr-test-partial",
+      "path": "data/demo/images/demo-02-250-fr-test-partial.png",
+      "sha256": "3923aa4f4b99767a18d9610125b173de64b0b2a79379810d90751a638c7978e1",
+      "family_id": "demo-02-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "partial",
+      "kind": "synthetic_degradation",
+      "transcription": "Lumavex",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-ar-test",
+      "path": "data/demo/images/demo-02-250-ar-test.png",
+      "sha256": "499d8efe5f19c92a96b4cf26d7c156af53d2e67405e78b170c1f171aa15ba74a",
+      "family_id": "demo-02-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "لومافكس\n٢٥٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-ar-test-rotation90",
+      "path": "data/demo/images/demo-02-250-ar-test-rotation90.png",
+      "sha256": "1f7f0842b6bdbc5dfd59852f0607f9dc13b21500aae228627efa634f8090d3e3",
+      "family_id": "demo-02-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "rotation90",
+      "kind": "synthetic_degradation",
+      "transcription": "لومافكس\n٢٥٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-ar-test-blur",
+      "path": "data/demo/images/demo-02-250-ar-test-blur.png",
+      "sha256": "3ac5d5192f9676b64bb8268a2195e0fc45066d7840c50695583057b41f79eb49",
+      "family_id": "demo-02-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "blur",
+      "kind": "synthetic_degradation",
+      "transcription": "لومافكس\n٢٥٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-ar-test-low_contrast",
+      "path": "data/demo/images/demo-02-250-ar-test-low_contrast.png",
+      "sha256": "22c5dda6b38530fc2945873aba1d52ea9e5cd776815ebce70c3b36ebb649cf58",
+      "family_id": "demo-02-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "low_contrast",
+      "kind": "synthetic_degradation",
+      "transcription": "لومافكس\n٢٥٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-ar-test-uneven_lighting",
+      "path": "data/demo/images/demo-02-250-ar-test-uneven_lighting.png",
+      "sha256": "a8063de12141d687c3b0f3cf611aad198456b3a4438ec859a3bef285112eb61f",
+      "family_id": "demo-02-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "uneven_lighting",
+      "kind": "synthetic_degradation",
+      "transcription": "لومافكس\n٢٥٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-250-ar-test-partial",
+      "path": "data/demo/images/demo-02-250-ar-test-partial.png",
+      "sha256": "f213de8ed95ec27e0b34bb028a9a38f31323e90c4527e8d58ff1c5a9af608e34",
+      "family_id": "demo-02-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "partial",
+      "kind": "synthetic_degradation",
+      "transcription": "لومافكس",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-250",
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-500-fr-dev",
+      "path": "data/demo/images/demo-02-500-fr-dev.png",
+      "sha256": "17a417e3e3e492b1cf97be5c52ce288bc94dc36665a19465efbe4bdb13f2d2e4",
+      "family_id": "demo-02-500-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Lumavex\n500 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-500-ar-dev",
+      "path": "data/demo/images/demo-02-500-ar-dev.png",
+      "sha256": "d913296b6050302a4748cd4f8f26418d364c9033fed3eff8f26a30438ecca521",
+      "family_id": "demo-02-500-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "لومافكس\n٥٠٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-500-fr-test",
+      "path": "data/demo/images/demo-02-500-fr-test.png",
+      "sha256": "f7f8768e9f9f6c9dcb1791385e4cf498a2131a36a6b88ab2708dff6bc61d3432",
+      "family_id": "demo-02-500-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Lumavex\n500 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-02-500-ar-test",
+      "path": "data/demo/images/demo-02-500-ar-test.png",
+      "sha256": "bcb5c7823867069c334314378e7072b68e4a3b48114dcfc4d9d41e7199a4acf1",
+      "family_id": "demo-02-500-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "لومافكس\n٥٠٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-02-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-100-fr-dev",
+      "path": "data/demo/images/demo-03-100-fr-dev.png",
+      "sha256": "761cb8a64d3efd65ad872240a077abe73dc6e084102f810ff28c475ed5c9443b",
+      "family_id": "demo-03-100-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Noravel\n100 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-100-ar-dev",
+      "path": "data/demo/images/demo-03-100-ar-dev.png",
+      "sha256": "9306c6f3e0c70f0c40587cfa17fed289b8e5904d55c2aa62b08bc1765d520a52",
+      "family_id": "demo-03-100-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "نورافيل\n١٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-100-fr-test",
+      "path": "data/demo/images/demo-03-100-fr-test.png",
+      "sha256": "037be19bcc3486094eacf0cac6941ab14c9b61ce366f1c31a1d7be2676bc4f16",
+      "family_id": "demo-03-100-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Noravel\n100 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-100-ar-test",
+      "path": "data/demo/images/demo-03-100-ar-test.png",
+      "sha256": "fe8cf3490c52b626f008e6b788ddb340d41274802dd21c2499946b97fd4ed2e1",
+      "family_id": "demo-03-100-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "نورافيل\n١٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-250-fr-dev",
+      "path": "data/demo/images/demo-03-250-fr-dev.png",
+      "sha256": "bd1135cd52d82cbc04733e239fa72b0112e24c2daa5cdad664bdefc172675e1f",
+      "family_id": "demo-03-250-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Noravel\n250 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-250-ar-dev",
+      "path": "data/demo/images/demo-03-250-ar-dev.png",
+      "sha256": "c88626c537faec53c3e8346d4fbcc112b3b344c8b1f1e50d3141aa8f8310bb4f",
+      "family_id": "demo-03-250-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "نورافيل\n٢٥٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-250-fr-test",
+      "path": "data/demo/images/demo-03-250-fr-test.png",
+      "sha256": "c24806cc7f06118c3942506a1e2c2ea704b4197ceb4f9e45f103170118c8ac95",
+      "family_id": "demo-03-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Noravel\n250 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-250-ar-test",
+      "path": "data/demo/images/demo-03-250-ar-test.png",
+      "sha256": "90e34d47907f841e9c7f9add4269fc287921974d5a91065acae4c4d58dac028f",
+      "family_id": "demo-03-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "نورافيل\n٢٥٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-500-fr-dev",
+      "path": "data/demo/images/demo-03-500-fr-dev.png",
+      "sha256": "79ca7302f140e56a5f8e76902691e4ddfdccd2b32cc7a6b6abc7a2ee7b98af24",
+      "family_id": "demo-03-500-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Noravel\n500 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-500-ar-dev",
+      "path": "data/demo/images/demo-03-500-ar-dev.png",
+      "sha256": "da9312232d6e8c29067ea7b2d4373503288bbe301c7aadbae4b8f76b36edf169",
+      "family_id": "demo-03-500-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "نورافيل\n٥٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-500-fr-test",
+      "path": "data/demo/images/demo-03-500-fr-test.png",
+      "sha256": "0569714bd4860cfa07b5aa3a57cd8a52cfdc7df249511ba928d0f0477be2d074",
+      "family_id": "demo-03-500-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Noravel\n500 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-03-500-ar-test",
+      "path": "data/demo/images/demo-03-500-ar-test.png",
+      "sha256": "423ea6c0f8486c6e51ef6b705eaae4e008585cbb46bc9be87dff5ee87774bc6e",
+      "family_id": "demo-03-500-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "نورافيل\n٥٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-03-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-100-fr-dev",
+      "path": "data/demo/images/demo-04-100-fr-dev.png",
+      "sha256": "29be2b612e5291df53672dc6864aa7e6918d91cad5879ef33a79024f8a393f3b",
+      "family_id": "demo-04-100-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Tazorin\n100 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-100-ar-dev",
+      "path": "data/demo/images/demo-04-100-ar-dev.png",
+      "sha256": "3d0b7822a183a7ceb8d5e37cd0a1fba45aa0abf9cc13b6eeb8ac62a7b989bd7d",
+      "family_id": "demo-04-100-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "تازورين\n١٠٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-100-fr-test",
+      "path": "data/demo/images/demo-04-100-fr-test.png",
+      "sha256": "f873fb3603622a20743e1df9d27560b3df9a61a3e10ec8ff7c698a5393bc8ff0",
+      "family_id": "demo-04-100-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Tazorin\n100 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-100-ar-test",
+      "path": "data/demo/images/demo-04-100-ar-test.png",
+      "sha256": "1a4623aaed4100de67a87550ad9878b095b999a2c59aeafcab24fcc8d0dd5b85",
+      "family_id": "demo-04-100-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "تازورين\n١٠٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-250-fr-dev",
+      "path": "data/demo/images/demo-04-250-fr-dev.png",
+      "sha256": "83998365fe53b8082e84404e37ff83a0eb2742f065fcf05336e2298d74049a08",
+      "family_id": "demo-04-250-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Tazorin\n250 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-250-ar-dev",
+      "path": "data/demo/images/demo-04-250-ar-dev.png",
+      "sha256": "2fe7d83574dbc50a8eca488e7e2b168e457726169b0d68462dfd13feb32f898b",
+      "family_id": "demo-04-250-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "تازورين\n٢٥٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-250-fr-test",
+      "path": "data/demo/images/demo-04-250-fr-test.png",
+      "sha256": "10ac59d3aeb6ddcddbadf4a747a900882c771f8cbcbbb173bd7e53615abfd5e0",
+      "family_id": "demo-04-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Tazorin\n250 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-250-ar-test",
+      "path": "data/demo/images/demo-04-250-ar-test.png",
+      "sha256": "7b6d13548f17fc6e25e741363db84c84e82281c1c83a91088d7ba7f6b73837bd",
+      "family_id": "demo-04-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "تازورين\n٢٥٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-500-fr-dev",
+      "path": "data/demo/images/demo-04-500-fr-dev.png",
+      "sha256": "e6a79ac7e664c63cc7b28dd594f1fbc8ffb4c28d2984bc6866856401641c7281",
+      "family_id": "demo-04-500-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Tazorin\n500 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-500-ar-dev",
+      "path": "data/demo/images/demo-04-500-ar-dev.png",
+      "sha256": "36d420bb16bc39523bfe9a9b3b20a261cbb204afd94d3794874a464da96c4041",
+      "family_id": "demo-04-500-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "تازورين\n٥٠٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-500-fr-test",
+      "path": "data/demo/images/demo-04-500-fr-test.png",
+      "sha256": "338924c296af69ae76740d66d2e60c54aa1f1d4dfaceb2c214ed2ae07cc88ac0",
+      "family_id": "demo-04-500-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Tazorin\n500 mg\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-04-500-ar-test",
+      "path": "data/demo/images/demo-04-500-ar-test.png",
+      "sha256": "7e213f962ba225858a229b4971a11e08061a4c2c0f939eddff1fd82f87fdecfa",
+      "family_id": "demo-04-500-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "تازورين\n٥٠٠ ملغ\n٢٠ كبسولات",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-04-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-100-fr-dev",
+      "path": "data/demo/images/demo-05-100-fr-dev.png",
+      "sha256": "f50c14aa03434e57a285916fead084c7dca1d2c8b91935e551e300ce5635845c",
+      "family_id": "demo-05-100-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Belmora\n100 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-100-ar-dev",
+      "path": "data/demo/images/demo-05-100-ar-dev.png",
+      "sha256": "2fd5290bb9728f8b9ba0b5dabe7067b3ac531afffab451678c4581c7f1f96127",
+      "family_id": "demo-05-100-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "بيلمورا\n١٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-100-fr-test",
+      "path": "data/demo/images/demo-05-100-fr-test.png",
+      "sha256": "aa7de8bce8070a85484bdbbf801383822f15fd66ecd9f6929837717fda1f6263",
+      "family_id": "demo-05-100-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Belmora\n100 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-100-ar-test",
+      "path": "data/demo/images/demo-05-100-ar-test.png",
+      "sha256": "9cb05f65bee427575e5daa915d994c57579cba37098548bfdbef7b4a788a6f0f",
+      "family_id": "demo-05-100-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "بيلمورا\n١٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-100",
+      "fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-250-fr-dev",
+      "path": "data/demo/images/demo-05-250-fr-dev.png",
+      "sha256": "fe000b370bc63e2a58e7091fa6910da074aac175ba39fc671a0d3c7c7692fff7",
+      "family_id": "demo-05-250-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Belmora\n250 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-250-ar-dev",
+      "path": "data/demo/images/demo-05-250-ar-dev.png",
+      "sha256": "ead7930451b77efad8aeaee498e078e7b9857ee50524c8fb90239ee80f93b297",
+      "family_id": "demo-05-250-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "بيلمورا\n٢٥٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-250-fr-test",
+      "path": "data/demo/images/demo-05-250-fr-test.png",
+      "sha256": "227d289b68dd5210cecce5a1b73e92585e82427848216f855282fdfa7cbce89b",
+      "family_id": "demo-05-250-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Belmora\n250 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-250-ar-test",
+      "path": "data/demo/images/demo-05-250-ar-test.png",
+      "sha256": "d95a9a411d16a8c453aecd6b176f282f0893fe51286eb4f7af0c300199a9ad58",
+      "family_id": "demo-05-250-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "بيلمورا\n٢٥٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-250",
+      "fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-500-fr-dev",
+      "path": "data/demo/images/demo-05-500-fr-dev.png",
+      "sha256": "a71e0c82194fa1ee6c3f94f1edc585d99c5f204c56b87561b19a35b5b1385405",
+      "family_id": "demo-05-500-fr-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Belmora\n500 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-500-ar-dev",
+      "path": "data/demo/images/demo-05-500-ar-dev.png",
+      "sha256": "603bd66a84ba8b14cddb5fb8e1ea24385536321f9bc6e534685494032f2078d7",
+      "family_id": "demo-05-500-ar-dev",
+      "split": "dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "بيلمورا\n٥٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-500-fr-test",
+      "path": "data/demo/images/demo-05-500-fr-test.png",
+      "sha256": "ccb70309532cfe79cac531e7a34d1cf372b355584f502d6436ab95371794a061",
+      "family_id": "demo-05-500-fr-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "Belmora\n500 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "demo-05-500-ar-test",
+      "path": "data/demo/images/demo-05-500-ar-test.png",
+      "sha256": "e20301e17aa598fb769072ea12d0b77c6b59a95e51abc1b3c4b4227a5c703349",
+      "family_id": "demo-05-500-ar-test",
+      "split": "test",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "transcription": "بيلمورا\n٥٠٠ ملغ\n١٢ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": "demo-05-500",
+      "fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "negative-unknown-dev",
+      "path": "data/demo/images/negative-unknown-dev.png",
+      "sha256": "d4cf270848e61d281ab7ee0653021938ecfe96591e8dc16dc849d742de062274",
+      "family_id": "negative-unknown-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "unknown",
+      "kind": "synthetic_render",
+      "transcription": "Xylophene\n750 mg\n20 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": null,
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "negative-nonmed-dev",
+      "path": "data/demo/images/negative-nonmed-dev.png",
+      "sha256": "66b454d5a4a8b17c15be9fc9af13970eb42045e8399bfdf941cf128fcd10ee4b",
+      "family_id": "negative-nonmed-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "nonmed",
+      "kind": "synthetic_render",
+      "transcription": "Bonjour\nSavon de toilette",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": null,
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "negative-conflict-dev",
+      "path": "data/demo/images/negative-conflict-dev.png",
+      "sha256": "ce0a21b89d3dd09000b62bd777de9e1254084a4cf79e24e1e8a07deb70585fbd",
+      "family_id": "negative-conflict-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "conflict",
+      "kind": "synthetic_render",
+      "transcription": "Zefrano\n900 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": null,
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "negative-blank-dev",
+      "path": "data/demo/images/negative-blank-dev.png",
+      "sha256": "98a6f5e38ca301b27f0a3fa4c3eeacbb40d18ab4a9e189b513ffc2d8806ed21c",
+      "family_id": "negative-blank-dev",
+      "split": "dev",
+      "language": "fr",
+      "condition": "blank",
+      "kind": "synthetic_render",
+      "transcription": "",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": null,
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "negative-unknown-test",
+      "path": "data/demo/images/negative-unknown-test.png",
+      "sha256": "158bcabb0ea4b16dfa5dcb1a9b953a44874777006c2623af980f7219c19c558a",
+      "family_id": "negative-unknown-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "unknown",
+      "kind": "synthetic_render",
+      "transcription": "Xylophene\n750 mg\n20 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": null,
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "negative-nonmed-test",
+      "path": "data/demo/images/negative-nonmed-test.png",
+      "sha256": "14f27a8c64737d5a38f41caa36c15f215ee4406b6eb5b0496dc581c183ec18bc",
+      "family_id": "negative-nonmed-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "nonmed",
+      "kind": "synthetic_render",
+      "transcription": "Bonjour\nSavon de toilette",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": null,
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "negative-conflict-test",
+      "path": "data/demo/images/negative-conflict-test.png",
+      "sha256": "51534d820eac8ad937465f9de19bb3709fa5915f34611af09a659986e689c76c",
+      "family_id": "negative-conflict-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "conflict",
+      "kind": "synthetic_render",
+      "transcription": "Zefrano\n900 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": null,
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    },
+    {
+      "image_id": "negative-blank-test",
+      "path": "data/demo/images/negative-blank-test.png",
+      "sha256": "98a6f5e38ca301b27f0a3fa4c3eeacbb40d18ab4a9e189b513ffc2d8806ed21c",
+      "family_id": "negative-blank-test",
+      "split": "test",
+      "language": "fr",
+      "condition": "blank",
+      "kind": "synthetic_render",
+      "transcription": "",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "product_id": null,
+      "fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "provenance": "Locally rendered fictional label; scripts/prepare_demo.py",
+      "rights": "CC0-1.0 synthetic fixture; font rights remain with their owners"
+    }
+  ],
+  "fonts": {
+    "fr": {
+      "path": "/usr/share/fonts/dejavu-sans-mono-fonts/DejaVuSansMono.ttf",
+      "sha256": "0b6b3306b2a686194c2a540550aea59ccd6ebf80d33717f91571e4210d5293fd"
+    },
+    "ar": {
+      "path": "/usr/share/fonts/google-noto-vf/NotoSansArabic[wght].ttf",
+      "sha256": "3fae4d7239d1faa55b234bda8091019a5251ff79df40d5e29367d84bed2a8138"
+    }
+  },
+  "split_policy": "Independent rendered layouts; all degradations remain with their original family. No photographs available."
+}

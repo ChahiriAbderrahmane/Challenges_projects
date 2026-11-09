@@ -1,0 +1,30 @@
+{
+  "version": "reference-fr-1",
+  "synthetic": false,
+  "provenance": "Base de données publique des médicaments (France), ANSM/HAS/UNCAM. Extract of factual identity fields only; not an official reuse or a Moroccan catalogue.",
+  "accessed_at": "2026-10-27",
+  "source_update_dates": {"specialties": "2026-09-29", "presentations": "2026-10-27"},
+  "usage_rights": "Licence ouverte BDPM: reuse permitted with attribution and update date; no implied official endorsement. No packaging artwork is redistributed under this licence.",
+  "license_url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+  "sources": [
+    "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+    "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_CIP_bdpm.txt"
+  ],
+  "products": [
+    {
+      "product_id": "fr-cip-3400936246980",
+      "name": "Doliprane",
+      "aliases": ["Doliprane"],
+      "strength": "1000 mg",
+      "form": "powder_oral_solution",
+      "pack_size": 8,
+      "source_identity": {
+        "cis": "61681702",
+        "cip13": "3400936246980",
+        "official_name": "DOLIPRANE 1000 mg, poudre pour solution buvable en sachet-dose",
+        "presentation": "8 sachet(s)-dose(s) papier aluminium polyéthylène de 4 g",
+        "note": "4 g is sachet content mass, not product strength; strength is the 1000 mg in the official specialty name. Artwork generation and market country cannot be inferred from image alone."
+      }
+    }
+  ]
+}

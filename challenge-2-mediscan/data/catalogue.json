@@ -1,0 +1,159 @@
+{
+  "version": "demo-1",
+  "synthetic": true,
+  "supplements": ["catalogue-reference.json"],
+  "provenance": "Fictional labels authored by scripts/prepare_demo.py; no claim of marketed products or Moroccan coverage",
+  "usage_rights": "CC0-1.0 for fictional catalogue records",
+  "products": [
+    {
+      "product_id": "demo-01-100",
+      "name": "Zefrano",
+      "aliases": [
+        "زفرانو"
+      ],
+      "strength": "100 mg",
+      "form": "tablet",
+      "pack_size": 12
+    },
+    {
+      "product_id": "demo-01-250",
+      "name": "Zefrano",
+      "aliases": [
+        "زفرانو"
+      ],
+      "strength": "250 mg",
+      "form": "tablet",
+      "pack_size": 12
+    },
+    {
+      "product_id": "demo-01-500",
+      "name": "Zefrano",
+      "aliases": [
+        "زفرانو"
+      ],
+      "strength": "500 mg",
+      "form": "tablet",
+      "pack_size": 12
+    },
+    {
+      "product_id": "demo-02-100",
+      "name": "Lumavex",
+      "aliases": [
+        "لومافكس"
+      ],
+      "strength": "100 mg",
+      "form": "capsule",
+      "pack_size": 20
+    },
+    {
+      "product_id": "demo-02-250",
+      "name": "Lumavex",
+      "aliases": [
+        "لومافكس"
+      ],
+      "strength": "250 mg",
+      "form": "capsule",
+      "pack_size": 20
+    },
+    {
+      "product_id": "demo-02-500",
+      "name": "Lumavex",
+      "aliases": [
+        "لومافكس"
+      ],
+      "strength": "500 mg",
+      "form": "capsule",
+      "pack_size": 20
+    },
+    {
+      "product_id": "demo-03-100",
+      "name": "Noravel",
+      "aliases": [
+        "نورافيل"
+      ],
+      "strength": "100 mg",
+      "form": "tablet",
+      "pack_size": 12
+    },
+    {
+      "product_id": "demo-03-250",
+      "name": "Noravel",
+      "aliases": [
+        "نورافيل"
+      ],
+      "strength": "250 mg",
+      "form": "tablet",
+      "pack_size": 12
+    },
+    {
+      "product_id": "demo-03-500",
+      "name": "Noravel",
+      "aliases": [
+        "نورافيل"
+      ],
+      "strength": "500 mg",
+      "form": "tablet",
+      "pack_size": 12
+    },
+    {
+      "product_id": "demo-04-100",
+      "name": "Tazorin",
+      "aliases": [
+        "تازورين"
+      ],
+      "strength": "100 mg",
+      "form": "capsule",
+      "pack_size": 20
+    },
+    {
+      "product_id": "demo-04-250",
+      "name": "Tazorin",
+      "aliases": [
+        "تازورين"
+      ],
+      "strength": "250 mg",
+      "form": "capsule",
+      "pack_size": 20
+    },
+    {
+      "product_id": "demo-04-500",
+      "name": "Tazorin",
+      "aliases": [
+        "تازورين"
+      ],
+      "strength": "500 mg",
+      "form": "capsule",
+      "pack_size": 20
+    },
+    {
+      "product_id": "demo-05-100",
+      "name": "Belmora",
+      "aliases": [
+        "بيلمورا"
+      ],
+      "strength": "100 mg",
+      "form": "tablet",
+      "pack_size": 12
+    },
+    {
+      "product_id": "demo-05-250",
+      "name": "Belmora",
+      "aliases": [
+        "بيلمورا"
+      ],
+      "strength": "250 mg",
+      "form": "tablet",
+      "pack_size": 12
+    },
+    {
+      "product_id": "demo-05-500",
+      "name": "Belmora",
+      "aliases": [
+        "بيلمورا"
+      ],
+      "strength": "500 mg",
+      "form": "tablet",
+      "pack_size": 12
+    }
+  ]
+}

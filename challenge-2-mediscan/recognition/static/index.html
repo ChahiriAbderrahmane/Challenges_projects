@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Mediscan · Reconnaissance de boîtes</title>
+  <link rel="icon" href="/static/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Mediscan, accueil">
+      <span class="brand-icon" aria-hidden="true">m<span>+</span></span>
+      <span>mediscan<span class="brand-dot">.</span></span>
+    </a>
+    <nav aria-label="Liens de l’application">
+      <span class="health" id="health"><span class="dot"></span><span id="health-text">Connexion…</span></span>
+      <a href="/docs" class="api-link">Documentation API <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow"><span></span> VISION PAR ORDINATEUR & OCR</p>
+      <h1 id="page-title">Une boîte. Une image.<br><span>Une identification éclairée.</span></h1>
+      <p class="lead">Retrouvez un médicament à partir du texte visible sur sa boîte.<br class="desktop-break"> Lecture du français et de l’arabe, puis comparaison au catalogue de référence.</p>
+      <div class="intro-tags"><span>FR + العربية</span><span>Traitement local</span><span>Sans conservation des images</span></div>
+    </section>
+
+    <div class="workspace">
+      <section class="panel upload-panel" aria-labelledby="upload-title">
+        <div class="panel-heading"><div><p class="step">01 / VOTRE IMAGE</p><h2 id="upload-title">Photographiez la boîte</h2></div><span class="corner-icon" aria-hidden="true">↗</span></div>
+        <form id="recognition-form">
+          <label class="dropzone" id="dropzone" for="image-input">
+            <input type="file" id="image-input" name="image" accept="image/jpeg,image/png,.jpg,.jpeg,.png" aria-describedby="file-hint">
+            <span id="upload-prompt" class="upload-prompt">
+              <span class="upload-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><rect x="7" y="9" width="34" height="30" rx="6"/><circle cx="17" cy="19" r="3"/><path d="m9 34 10-10 8 8 5-5 8 8"/></svg></span>
+              <strong>Glissez votre image ici</strong>
+              <span>ou <span class="choose">parcourez vos fichiers</span></span>
+              <small id="file-hint">JPEG ou PNG · 8 Mio maximum · 16 mégapixels</small>
+            </span>
+            <img id="preview" alt="Aperçu de la boîte à analyser" hidden>
+            <span class="change-image" id="change-image" hidden>Choisir une autre image</span>
+          </label>
+          <div class="file-row" id="file-row" hidden><span id="filename"></span><button id="clear-image" type="button" aria-label="Retirer l’image">Retirer</button></div>
+          <div id="error" class="error" role="alert" hidden></div>
+          <button class="analyze-button" id="analyze" type="submit" disabled><span class="spinner" id="spinner" hidden></span><span id="analyze-label">Analyser la boîte</span><span id="analyze-arrow" aria-hidden="true">→</span></button>
+          <p class="upload-note" id="upload-note">Le résultat dépend de la lisibilité du texte et de la couverture du catalogue.</p>
+        </form>
+        <div class="photo-tip"><span aria-hidden="true">✧</span><div><strong>Pour une meilleure lecture</strong><p>Cadrez la face avant, gardez le nom et la force visibles, et évitez les reflets.</p></div></div>
+      </section>
+
+      <section class="panel result-panel" id="result-panel" aria-labelledby="result-title" aria-busy="false">
+        <div class="panel-heading"><div><p class="step">02 / IDENTIFICATION</p><h2 id="result-title">Résultat de l’analyse</h2></div><span class="result-badge" id="result-badge">En attente</span></div>
+        <div class="empty-state" id="empty-state">
+          <div class="scan-illustration" aria-hidden="true"><span class="scan-cross">+</span><i></i><i></i><i></i></div>
+          <h3>Tout commence par une image</h3>
+          <p>Ajoutez une photo pour extraire le texte<br>et rechercher les produits correspondants.</p>
+          <div class="pipeline"><span>Image</span><b>→</b><span>Texte</span><b>→</b><span>Catalogue</span></div>
+        </div>
+        <div id="result" hidden>
+          <div class="outcome"><p class="outcome-kicker" id="outcome-kicker"></p><h3 id="product-title" tabindex="-1"></h3><p id="outcome-description"></p></div>
+          <dl class="fields">
+            <div><dt>Nom lu</dt><dd id="field-name"></dd></div>
+            <div><dt>Force lue</dt><dd id="field-strength"></dd></div>
+            <div><dt>Forme lue</dt><dd id="field-form"></dd></div>
+            <div><dt>Quantité lue</dt><dd id="field-pack"></dd></div>
+          </dl>
+          <p class="product-reference" id="product-reference" hidden></p>
+          <section class="candidates-section" id="candidates-section" aria-labelledby="candidates-title" hidden><h4 id="candidates-title">Autres correspondances possibles</h4><p class="small-note">Indices de classement sur 100, pas des probabilités.</p><div id="candidates"></div></section>
+          <details class="technical"><summary>Texte OCR et éléments de comparaison</summary><h4>Texte extrait</h4><pre id="ocr-text" dir="auto"></pre><h4>Éléments de rapprochement</h4><ul id="evidence"></ul><h4>Informations et limites</h4><ul id="warnings"></ul></details>
+          <details class="technical"><summary>Réponse JSON complète</summary><pre id="json-output" dir="ltr"></pre></details>
+          <div class="result-meta"><span id="timing"></span><span id="request-id"></span></div>
+        </div>
+        <p class="sr-only" id="announcement" role="status" aria-live="polite"></p>
+      </section>
+    </div>
+
+    <aside class="catalogue-note"><span class="info-icon" aria-hidden="true">i</span><p><strong>Un catalogue limité, des résultats explicables.</strong> Une référence française Doliprane 1000 mg, 8 sachets, et 15 variantes fictives de démonstration. Une image lisible peut rester inconnue si le produit n’est pas référencé. La lecture des chiffres arabo-indiens reste limitée.</p></aside>
+  </main>
+  <footer><span>CHALLENGE 02 <b>/</b> Reconnaissance de boîtes de médicaments</span><span>FastAPI · Tesseract · CPU</span></footer>
+</body>
+</html>

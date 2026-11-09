@@ -340,8 +340,8 @@ ocr.py / rag.py / ...  # Legacy historical components
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/abelmou/Healthcare-Assistant.git
-   cd Healthcare-Assistant
+   git clone https://github.com/ChahiriAbderrahmane/Challenges_projects.git
+   cd Challenges_projects/challenge-1-pharmacy-assistant
    ```
 
 2. **Create a virtual environment and install dependencies**

@@ -1,0 +1,9 @@
+{
+  "experiment": "French tessdata_best diagnostic on user-supplied Doliprane image, 2026-10-27",
+  "result": "Did not reliably recover the strength unit in full-image PSM 3/6/11; not enabled or required by the application.",
+  "file": "quality/fra.traineddata",
+  "bytes": 3972885,
+  "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/e12c65a915945e4c28e237a9b52bc4a8f39a0cec/fra.traineddata",
+  "sha256": "907743d98915c91a3906dfbf6e48b97598346698fe53aaa797e1a064ffcac913",
+  "license": "Apache-2.0"
+}

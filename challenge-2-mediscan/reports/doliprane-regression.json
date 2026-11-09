@@ -1,0 +1,175 @@
+{
+  "split": "dev",
+  "synthetic_only": false,
+  "photograph_count": 0,
+  "user_supplied_packaging_image_count": 1,
+  "metric_protocol": "CER/WER score primary_ocr_text only (not concatenated/repeated fallback passes), micro-averaged, NFC + whitespace collapse + bidi-control removal; case, accents and digit scripts preserved. Reference provenance is recorded per row; null/empty transcripts are excluded. Identification uses all retained OCR evidence. Null means no denominator. End-to-end accuracy requires accepted correct ID. Name metric is exact visible alias recall, not inferred brand transcription accuracy.",
+  "latency_protocol": "Warm in-process service, decode+all OCR passes+matching; excludes HTTP/upload/startup. p95 inclusive quantile. Groups may be small and share photo families.",
+  "engine": "tesseract 5.5.1\n leptonica-1.85.0\n  libjpeg 6b (libjpeg-turbo 1.5.3) : libpng 1.6.34 : libtiff 4.0.9 : zlib 1.2.11 : libwebp 1.0.0",
+  "python": "3.12.15",
+  "platform": "Linux-7.2.7-100.fc43.x86_64-x86_64-with-glibc2.42",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-1335U",
+  "peak_process_rss_mib": 997.5,
+  "total_seconds": 2.44,
+  "thresholds": {
+    "candidate_name": 0.65,
+    "accept_name": 0.95,
+    "accept_score": 95,
+    "margin": 12,
+    "calibration": "Synthetic development-only grid selection: maximize correct accepts subject to zero observed false accepts; conservative tie break. No population probability calibration."
+  },
+  "contrast": false,
+  "overall": {
+    "sample_count": 1,
+    "known_count": 1,
+    "unknown_count": 0,
+    "accepted_count": 1,
+    "ocr_transcribed_count": 0,
+    "ocr_reference_characters": 0,
+    "ocr_reference_words": 0,
+    "cer": null,
+    "wer": null,
+    "field_accuracy": {
+      "strength": 1.0,
+      "form": 1.0,
+      "pack_size": 1.0
+    },
+    "name_alias_recall": 1.0,
+    "top1_candidate_accuracy": 1.0,
+    "end_to_end_top1_accuracy": 1.0,
+    "top3_candidate_recall": 1.0,
+    "precision_accepted": 1.0,
+    "acceptance_rate": 1.0,
+    "abstention_rate": 0.0,
+    "false_matches_unknown_count": 0,
+    "false_matches_unknown_rate": null,
+    "latency_p50_ms": 2220.53,
+    "latency_p95_ms": 2220.53
+  },
+  "by_language": {
+    "fr": {
+      "sample_count": 1,
+      "known_count": 1,
+      "unknown_count": 0,
+      "accepted_count": 1,
+      "ocr_transcribed_count": 0,
+      "ocr_reference_characters": 0,
+      "ocr_reference_words": 0,
+      "cer": null,
+      "wer": null,
+      "field_accuracy": {
+        "strength": 1.0,
+        "form": 1.0,
+        "pack_size": 1.0
+      },
+      "name_alias_recall": 1.0,
+      "top1_candidate_accuracy": 1.0,
+      "end_to_end_top1_accuracy": 1.0,
+      "top3_candidate_recall": 1.0,
+      "precision_accepted": 1.0,
+      "acceptance_rate": 1.0,
+      "abstention_rate": 0.0,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": null,
+      "latency_p50_ms": 2220.53,
+      "latency_p95_ms": 2220.53
+    }
+  },
+  "by_condition": {
+    "perspective_coloured_packaging_mixed_font_sizes": {
+      "sample_count": 1,
+      "known_count": 1,
+      "unknown_count": 0,
+      "accepted_count": 1,
+      "ocr_transcribed_count": 0,
+      "ocr_reference_characters": 0,
+      "ocr_reference_words": 0,
+      "cer": null,
+      "wer": null,
+      "field_accuracy": {
+        "strength": 1.0,
+        "form": 1.0,
+        "pack_size": 1.0
+      },
+      "name_alias_recall": 1.0,
+      "top1_candidate_accuracy": 1.0,
+      "end_to_end_top1_accuracy": 1.0,
+      "top3_candidate_recall": 1.0,
+      "precision_accepted": 1.0,
+      "acceptance_rate": 1.0,
+      "abstention_rate": 0.0,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": null,
+      "latency_p50_ms": 2220.53,
+      "latency_p95_ms": 2220.53
+    }
+  },
+  "by_kind": {
+    "user_supplied_packaging_image": {
+      "sample_count": 1,
+      "known_count": 1,
+      "unknown_count": 0,
+      "accepted_count": 1,
+      "ocr_transcribed_count": 0,
+      "ocr_reference_characters": 0,
+      "ocr_reference_words": 0,
+      "cer": null,
+      "wer": null,
+      "field_accuracy": {
+        "strength": 1.0,
+        "form": 1.0,
+        "pack_size": 1.0
+      },
+      "name_alias_recall": 1.0,
+      "top1_candidate_accuracy": 1.0,
+      "end_to_end_top1_accuracy": 1.0,
+      "top3_candidate_recall": 1.0,
+      "precision_accepted": 1.0,
+      "acceptance_rate": 1.0,
+      "abstention_rate": 0.0,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": null,
+      "latency_p50_ms": 2220.53,
+      "latency_p95_ms": 2220.53
+    }
+  },
+  "rows": [
+    {
+      "image_id": "user-doliprane-1000mg-8-sachets",
+      "family_id": "user-doliprane-packshot-01",
+      "language": "fr",
+      "condition": "perspective_coloured_packaging_mixed_font_sizes",
+      "kind": "user_supplied_packaging_image",
+      "expected_product_id": "fr-cip-3400936246980",
+      "expected_fields": {
+        "strength": "1000 mg",
+        "form": "powder_oral_solution",
+        "pack_size": 8
+      },
+      "expected_text": null,
+      "raw_ocr_text": "[baseline]\nSANOFI\\%\n\n8 sachets-dose\n\nË\n‏ا‎\n\nDoliprane: !\n\n= mn\"\n\nAC-ST-\n\n2e El\n6\n3\n60\n‏اذا‎ ©\nä\n®\na\n5 ‏أي‎\n‎®\n‎<\n‎60\n‎> ‏احج اح‎\nnie\n\n[single block]\nSANOFI 3 nn |,\nDoliprane: À\nf\n\n0 prane 0\n\nfl\n\n1000 )\nos LL\n\n[sparse text]\n———\n\nع\n\n=\n\n=\n\nSANOFI ‏ق‎\n\nPoudre pour solution buvable\n\n8 sachets-dose\n\n(\n\n؟'\n\n0\n\nDoli\n\nprane:\n\nPARACÉTAMOL\n\nVi)\n\n0\n\n00,\n\np\"\n\nو\n\nمه\n\ndouleurs et fièvre\n\n|\n\n[Confirmed adjacent number and unit crops]\n1000 mg",
+      "transcription_source": "Identifier fields manually checked against visible image and BDPM. No exhaustive text transcription; exclude from CER/WER.",
+      "primary_ocr_text": "SANOFI\\%\n\n8 sachets-dose\n\nË\n‏ا‎\n\nDoliprane: !\n\n= mn\"\n\nAC-ST-\n\n2e El\n6\n3\n60\n‏اذا‎ ©\nä\n®\na\n5 ‏أي‎\n‎®\n‎<\n‎60\n‎> ‏احج اح‎\nnie",
+      "fields": {
+        "product_name": "doliprane",
+        "strength": "1000 mg",
+        "form": "powder_oral_solution",
+        "pack_size": 8,
+        "observed_strengths": [
+          "1000 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "fr-cip-3400936246980",
+      "candidate_ids": [
+        "fr-cip-3400936246980"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 2220.53,
+      "warnings": [
+        "Used bounded packaging-layout OCR fallback; raw passes and confirmed adjacent number/unit crops are preserved.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    }
+  ]
+}

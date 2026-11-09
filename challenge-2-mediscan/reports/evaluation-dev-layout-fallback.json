@@ -1,0 +1,1521 @@
+{
+  "split": "dev",
+  "synthetic_only": true,
+  "photograph_count": 0,
+  "user_supplied_packaging_image_count": 0,
+  "metric_protocol": "CER/WER score primary_ocr_text only (not concatenated/repeated fallback passes), micro-averaged, NFC + whitespace collapse + bidi-control removal; case, accents and digit scripts preserved. Reference provenance is recorded per row; null/empty transcripts are excluded. Identification uses all retained OCR evidence. Null means no denominator. End-to-end accuracy requires accepted correct ID. Name metric is exact visible alias recall, not inferred brand transcription accuracy.",
+  "latency_protocol": "Warm in-process service, decode+all OCR passes+matching; excludes HTTP/upload/startup. p95 inclusive quantile. Groups may be small and share photo families.",
+  "engine": "tesseract 5.5.1\n leptonica-1.85.0\n  libjpeg 6b (libjpeg-turbo 1.5.3) : libpng 1.6.34 : libtiff 4.0.9 : zlib 1.2.11 : libwebp 1.0.0",
+  "python": "3.12.15",
+  "platform": "Linux-7.2.7-100.fc43.x86_64-x86_64-with-glibc2.42",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-1335U",
+  "peak_process_rss_mib": 77.5,
+  "total_seconds": 14.06,
+  "thresholds": {
+    "candidate_name": 0.65,
+    "accept_name": 0.95,
+    "accept_score": 95,
+    "margin": 12,
+    "calibration": "Synthetic development-only grid selection: maximize correct accepts subject to zero observed false accepts; conservative tie break. No population probability calibration."
+  },
+  "contrast": false,
+  "overall": {
+    "sample_count": 34,
+    "known_count": 30,
+    "unknown_count": 4,
+    "accepted_count": 15,
+    "ocr_transcribed_count": 33,
+    "ocr_reference_characters": 843,
+    "ocr_reference_words": 164,
+    "cer": 0.3049,
+    "wer": 0.4024,
+    "field_accuracy": {
+      "strength": 0.5,
+      "form": 0.6,
+      "pack_size": 0.5
+    },
+    "name_alias_recall": 0.7667,
+    "top1_candidate_accuracy": 0.6333,
+    "end_to_end_top1_accuracy": 0.5,
+    "top3_candidate_recall": 0.7667,
+    "precision_accepted": 1.0,
+    "acceptance_rate": 0.4412,
+    "abstention_rate": 0.5588,
+    "false_matches_unknown_count": 0,
+    "false_matches_unknown_rate": 0.0,
+    "latency_p50_ms": 283.0,
+    "latency_p95_ms": 863.7
+  },
+  "by_language": {
+    "ar": {
+      "sample_count": 15,
+      "known_count": 15,
+      "unknown_count": 0,
+      "accepted_count": 0,
+      "ocr_transcribed_count": 15,
+      "ocr_reference_characters": 369,
+      "ocr_reference_words": 75,
+      "cer": 0.6938,
+      "wer": 0.8667,
+      "field_accuracy": {
+        "strength": 0.0,
+        "form": 0.2,
+        "pack_size": 0.0
+      },
+      "name_alias_recall": 0.5333,
+      "top1_candidate_accuracy": 0.2667,
+      "end_to_end_top1_accuracy": 0.0,
+      "top3_candidate_recall": 0.5333,
+      "precision_accepted": null,
+      "acceptance_rate": 0.0,
+      "abstention_rate": 1.0,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": null,
+      "latency_p50_ms": 566.56,
+      "latency_p95_ms": 895.61
+    },
+    "fr": {
+      "sample_count": 19,
+      "known_count": 15,
+      "unknown_count": 4,
+      "accepted_count": 15,
+      "ocr_transcribed_count": 18,
+      "ocr_reference_characters": 474,
+      "ocr_reference_words": 89,
+      "cer": 0.0021,
+      "wer": 0.0112,
+      "field_accuracy": {
+        "strength": 1.0,
+        "form": 1.0,
+        "pack_size": 1.0
+      },
+      "name_alias_recall": 1.0,
+      "top1_candidate_accuracy": 1.0,
+      "end_to_end_top1_accuracy": 1.0,
+      "top3_candidate_recall": 1.0,
+      "precision_accepted": 1.0,
+      "acceptance_rate": 0.7895,
+      "abstention_rate": 0.2105,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": 0.0,
+      "latency_p50_ms": 143.97,
+      "latency_p95_ms": 823.89
+    }
+  },
+  "by_condition": {
+    "blank": {
+      "sample_count": 1,
+      "known_count": 0,
+      "unknown_count": 1,
+      "accepted_count": 0,
+      "ocr_transcribed_count": 0,
+      "ocr_reference_characters": 0,
+      "ocr_reference_words": 0,
+      "cer": null,
+      "wer": null,
+      "field_accuracy": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "name_alias_recall": null,
+      "top1_candidate_accuracy": null,
+      "end_to_end_top1_accuracy": null,
+      "top3_candidate_recall": null,
+      "precision_accepted": null,
+      "acceptance_rate": 0.0,
+      "abstention_rate": 1.0,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": 0.0,
+      "latency_p50_ms": 224.7,
+      "latency_p95_ms": 224.7
+    },
+    "clear": {
+      "sample_count": 30,
+      "known_count": 30,
+      "unknown_count": 0,
+      "accepted_count": 15,
+      "ocr_transcribed_count": 30,
+      "ocr_reference_characters": 762,
+      "ocr_reference_words": 150,
+      "cer": 0.336,
+      "wer": 0.4333,
+      "field_accuracy": {
+        "strength": 0.5,
+        "form": 0.6,
+        "pack_size": 0.5
+      },
+      "name_alias_recall": 0.7667,
+      "top1_candidate_accuracy": 0.6333,
+      "end_to_end_top1_accuracy": 0.5,
+      "top3_candidate_recall": 0.7667,
+      "precision_accepted": 1.0,
+      "acceptance_rate": 0.5,
+      "abstention_rate": 0.5,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": null,
+      "latency_p50_ms": 280.12,
+      "latency_p95_ms": 868.13
+    },
+    "conflict": {
+      "sample_count": 1,
+      "known_count": 0,
+      "unknown_count": 1,
+      "accepted_count": 0,
+      "ocr_transcribed_count": 1,
+      "ocr_reference_characters": 27,
+      "ocr_reference_words": 5,
+      "cer": 0.0,
+      "wer": 0.0,
+      "field_accuracy": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "name_alias_recall": null,
+      "top1_candidate_accuracy": null,
+      "end_to_end_top1_accuracy": null,
+      "top3_candidate_recall": null,
+      "precision_accepted": null,
+      "acceptance_rate": 0.0,
+      "abstention_rate": 1.0,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": 0.0,
+      "latency_p50_ms": 126.74,
+      "latency_p95_ms": 126.74
+    },
+    "nonmed": {
+      "sample_count": 1,
+      "known_count": 0,
+      "unknown_count": 1,
+      "accepted_count": 0,
+      "ocr_transcribed_count": 1,
+      "ocr_reference_characters": 25,
+      "ocr_reference_words": 4,
+      "cer": 0.0,
+      "wer": 0.0,
+      "field_accuracy": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "name_alias_recall": null,
+      "top1_candidate_accuracy": null,
+      "end_to_end_top1_accuracy": null,
+      "top3_candidate_recall": null,
+      "precision_accepted": null,
+      "acceptance_rate": 0.0,
+      "abstention_rate": 1.0,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": 0.0,
+      "latency_p50_ms": 823.66,
+      "latency_p95_ms": 823.66
+    },
+    "unknown": {
+      "sample_count": 1,
+      "known_count": 0,
+      "unknown_count": 1,
+      "accepted_count": 0,
+      "ocr_transcribed_count": 1,
+      "ocr_reference_characters": 29,
+      "ocr_reference_words": 5,
+      "cer": 0.0345,
+      "wer": 0.2,
+      "field_accuracy": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "name_alias_recall": null,
+      "top1_candidate_accuracy": null,
+      "end_to_end_top1_accuracy": null,
+      "top3_candidate_recall": null,
+      "precision_accepted": null,
+      "acceptance_rate": 0.0,
+      "abstention_rate": 1.0,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": 0.0,
+      "latency_p50_ms": 826.0,
+      "latency_p95_ms": 826.0
+    }
+  },
+  "by_kind": {
+    "synthetic_render": {
+      "sample_count": 34,
+      "known_count": 30,
+      "unknown_count": 4,
+      "accepted_count": 15,
+      "ocr_transcribed_count": 33,
+      "ocr_reference_characters": 843,
+      "ocr_reference_words": 164,
+      "cer": 0.3049,
+      "wer": 0.4024,
+      "field_accuracy": {
+        "strength": 0.5,
+        "form": 0.6,
+        "pack_size": 0.5
+      },
+      "name_alias_recall": 0.7667,
+      "top1_candidate_accuracy": 0.6333,
+      "end_to_end_top1_accuracy": 0.5,
+      "top3_candidate_recall": 0.7667,
+      "precision_accepted": 1.0,
+      "acceptance_rate": 0.4412,
+      "abstention_rate": 0.5588,
+      "false_matches_unknown_count": 0,
+      "false_matches_unknown_rate": 0.0,
+      "latency_p50_ms": 283.0,
+      "latency_p95_ms": 863.7
+    }
+  },
+  "rows": [
+    {
+      "image_id": "demo-01-100-fr-dev",
+      "family_id": "demo-01-100-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-01-100",
+      "expected_fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "Zefrano\n100 mg\n12 comprimés",
+      "raw_ocr_text": "Zefrano\n100 mg\n\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Zefrano\n100 mg\n\n12 comprimés",
+      "fields": {
+        "product_name": "zefrano",
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12,
+        "observed_strengths": [
+          "100 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-01-100",
+      "candidate_ids": [
+        "demo-01-100",
+        "demo-01-250",
+        "demo-01-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 218.94,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-01-100-ar-dev",
+      "family_id": "demo-01-100-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-01-100",
+      "expected_fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "زفرانو\n١٠٠ ملغ\n١٢ أقراص",
+      "raw_ocr_text": "زفرانو\n\n‎١‏ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "زفرانو\n\n‎١‏ أقراص",
+      "fields": {
+        "product_name": "زفرانو",
+        "strength": null,
+        "form": "tablet",
+        "pack_size": 1,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [
+        "demo-01-100",
+        "demo-01-250",
+        "demo-01-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 742.98,
+      "warnings": [
+        "Low global contrast; provide a well-lit, sharp image if recognition fails.",
+        "Selected orthogonal rotation 90 degrees; word boxes reference that OCR image.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-01-250-fr-dev",
+      "family_id": "demo-01-250-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-01-250",
+      "expected_fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "Zefrano\n250 mg\n12 comprimés",
+      "raw_ocr_text": "Zefrano\n250 mg\n\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Zefrano\n250 mg\n\n12 comprimés",
+      "fields": {
+        "product_name": "zefrano",
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12,
+        "observed_strengths": [
+          "250 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-01-250",
+      "candidate_ids": [
+        "demo-01-250",
+        "demo-01-100",
+        "demo-01-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 167.28,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-01-250-ar-dev",
+      "family_id": "demo-01-250-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-01-250",
+      "expected_fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "زفرانو\n٢٥٠ ملغ\n١٢ أقراص",
+      "raw_ocr_text": "At ISA\n\n:01 8\n\nCM Ta",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "At ISA\n\n:01 8\n\nCM Ta",
+      "fields": {
+        "product_name": "at isa\n01 8\ncm ta",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [],
+      "name_alias_present": false,
+      "processing_time_ms": 501.67,
+      "warnings": [
+        "Low global contrast; provide a well-lit, sharp image if recognition fails.",
+        "Selected orthogonal rotation 90 degrees; word boxes reference that OCR image.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-01-500-fr-dev",
+      "family_id": "demo-01-500-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-01-500",
+      "expected_fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "Zefrano\n500 mg\n12 comprimés",
+      "raw_ocr_text": "Zefrano\n500 mg\n\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Zefrano\n500 mg\n\n12 comprimés",
+      "fields": {
+        "product_name": "zefrano",
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12,
+        "observed_strengths": [
+          "500 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-01-500",
+      "candidate_ids": [
+        "demo-01-500",
+        "demo-01-100",
+        "demo-01-250"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 135.97,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-01-500-ar-dev",
+      "family_id": "demo-01-500-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-01-500",
+      "expected_fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "زفرانو\n٥٠٠ ملغ\n١٢ أقراص",
+      "raw_ocr_text": "At ISA\n\nCM Ta",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "At ISA\n\nCM Ta",
+      "fields": {
+        "product_name": "at isa\ncm ta",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [],
+      "name_alias_present": false,
+      "processing_time_ms": 475.25,
+      "warnings": [
+        "Low global contrast; provide a well-lit, sharp image if recognition fails.",
+        "Selected orthogonal rotation 90 degrees; word boxes reference that OCR image.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-02-100-fr-dev",
+      "family_id": "demo-02-100-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-02-100",
+      "expected_fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "Lumavex\n100 mg\n20 gélules",
+      "raw_ocr_text": "Lumavex\n100 mg\n\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Lumavex\n100 mg\n\n20 gélules",
+      "fields": {
+        "product_name": "lumavex",
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20,
+        "observed_strengths": [
+          "100 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-02-100",
+      "candidate_ids": [
+        "demo-02-100",
+        "demo-02-250",
+        "demo-02-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 124.07,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-02-100-ar-dev",
+      "family_id": "demo-02-100-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-02-100",
+      "expected_fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "لومافكس\n١٠٠ ملغ\n٢٠ كبسولات",
+      "raw_ocr_text": "[baseline]\nلومافكس\n‎٠‏ كبسولات\n\n[single block]\nلومافكس\n‎٠‏ كبسولات\n\n[sparse text]\nلومافكس\n\n| ملغ",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "لومافكس\n‎٠‏ كبسولات",
+      "fields": {
+        "product_name": "لومافكس\nلومافكس\nلومافكس\nملغ",
+        "strength": null,
+        "form": "capsule",
+        "pack_size": 0,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [
+        "demo-02-100",
+        "demo-02-250",
+        "demo-02-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 936.5,
+      "warnings": [
+        "Used bounded packaging-layout OCR fallback; raw passes and confirmed adjacent number/unit crops are preserved.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-02-250-fr-dev",
+      "family_id": "demo-02-250-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-02-250",
+      "expected_fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "Lumavex\n250 mg\n20 gélules",
+      "raw_ocr_text": "Lumavex\n250 mg\n\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Lumavex\n250 mg\n\n20 gélules",
+      "fields": {
+        "product_name": "lumavex",
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20,
+        "observed_strengths": [
+          "250 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-02-250",
+      "candidate_ids": [
+        "demo-02-250",
+        "demo-02-100",
+        "demo-02-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 130.07,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-02-250-ar-dev",
+      "family_id": "demo-02-250-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-02-250",
+      "expected_fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "لومافكس\n٢٥٠ ملغ\n٢٠ كبسولات",
+      "raw_ocr_text": "[baseline]\nلومافكس\n‎lo:‏ ملغ\n\n[single block]\nلومافكس\n‎lo:‏ ملغ\n\n[sparse text]\nلومافكس\n\n‎lo‏ ملغ",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "لومافكس\n‎lo:‏ ملغ",
+      "fields": {
+        "product_name": "لومافكس\nlo ملغ\nلومافكس\nlo ملغ\nلومافكس\nlo ملغ",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "ambiguous",
+      "matched_id": null,
+      "candidate_ids": [
+        "demo-02-100",
+        "demo-02-250",
+        "demo-02-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 878.08,
+      "warnings": [
+        "Used bounded packaging-layout OCR fallback; raw passes and confirmed adjacent number/unit crops are preserved.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-02-500-fr-dev",
+      "family_id": "demo-02-500-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-02-500",
+      "expected_fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "Lumavex\n500 mg\n20 gélules",
+      "raw_ocr_text": "Lumavex\n500 mg\n\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Lumavex\n500 mg\n\n20 gélules",
+      "fields": {
+        "product_name": "lumavex",
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20,
+        "observed_strengths": [
+          "500 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-02-500",
+      "candidate_ids": [
+        "demo-02-500",
+        "demo-02-100",
+        "demo-02-250"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 127.68,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-02-500-ar-dev",
+      "family_id": "demo-02-500-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-02-500",
+      "expected_fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "لومافكس\n٥٠٠ ملغ\n٢٠ كبسولات",
+      "raw_ocr_text": "[baseline]\nلومافكس\n\n[single block]\nلومافكس\nملغ\n‎٠‏ كبسولا\n\n[sparse text]\nلومافكس\n\n0 ملغ",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "لومافكس",
+      "fields": {
+        "product_name": "لومافكس\nلومافكس\nملغ\n0 كبسولا\nلومافكس",
+        "strength": "0 mg",
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": [
+          "0 mg"
+        ]
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [
+        "demo-02-100",
+        "demo-02-250",
+        "demo-02-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 341.3,
+      "warnings": [
+        "Used bounded packaging-layout OCR fallback; raw passes and confirmed adjacent number/unit crops are preserved.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-03-100-fr-dev",
+      "family_id": "demo-03-100-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-03-100",
+      "expected_fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "Noravel\n100 mg\n12 comprimés",
+      "raw_ocr_text": "Noravel\n100 mg\n\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Noravel\n100 mg\n\n12 comprimés",
+      "fields": {
+        "product_name": "noravel",
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12,
+        "observed_strengths": [
+          "100 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-03-100",
+      "candidate_ids": [
+        "demo-03-100",
+        "demo-03-250",
+        "demo-03-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 132.32,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-03-100-ar-dev",
+      "family_id": "demo-03-100-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-03-100",
+      "expected_fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "نورافيل\n١٠٠ ملغ\n١٢ أقراص",
+      "raw_ocr_text": "At ISA\n\n1 TR\nSM UM 8",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "At ISA\n\n1 TR\nSM UM 8",
+      "fields": {
+        "product_name": "at isa\n1 tr\nsm um 8",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [],
+      "name_alias_present": false,
+      "processing_time_ms": 558.36,
+      "warnings": [
+        "Low global contrast; provide a well-lit, sharp image if recognition fails.",
+        "Selected orthogonal rotation 90 degrees; word boxes reference that OCR image.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-03-250-fr-dev",
+      "family_id": "demo-03-250-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-03-250",
+      "expected_fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "Noravel\n250 mg\n12 comprimés",
+      "raw_ocr_text": "Noravel\n250 mg\n\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Noravel\n250 mg\n\n12 comprimés",
+      "fields": {
+        "product_name": "noravel",
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12,
+        "observed_strengths": [
+          "250 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-03-250",
+      "candidate_ids": [
+        "demo-03-250",
+        "demo-03-100",
+        "demo-03-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 143.44,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-03-250-ar-dev",
+      "family_id": "demo-03-250-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-03-250",
+      "expected_fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "نورافيل\n٢٥٠ ملغ\n١٢ أقراص",
+      "raw_ocr_text": "At ISA\n\n8 01:\n#تداكلد",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "At ISA\n\n8 01:\n#تداكلد",
+      "fields": {
+        "product_name": "at isa\n8 01\nتداكلد",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [],
+      "name_alias_present": false,
+      "processing_time_ms": 593.31,
+      "warnings": [
+        "Selected orthogonal rotation 90 degrees; word boxes reference that OCR image.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-03-500-fr-dev",
+      "family_id": "demo-03-500-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-03-500",
+      "expected_fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "Noravel\n500 mg\n12 comprimés",
+      "raw_ocr_text": "Noravel\n500 mg\n\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Noravel\n500 mg\n\n12 comprimés",
+      "fields": {
+        "product_name": "noravel",
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12,
+        "observed_strengths": [
+          "500 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-03-500",
+      "candidate_ids": [
+        "demo-03-500",
+        "demo-03-100",
+        "demo-03-250"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 143.97,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-03-500-ar-dev",
+      "family_id": "demo-03-500-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-03-500",
+      "expected_fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "نورافيل\n٥٠٠ ملغ\n١٢ أقراص",
+      "raw_ocr_text": "At ISA\n\nMU D",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "At ISA\n\nMU D",
+      "fields": {
+        "product_name": "at isa\nmu d",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [],
+      "name_alias_present": false,
+      "processing_time_ms": 516.63,
+      "warnings": [
+        "Selected orthogonal rotation 90 degrees; word boxes reference that OCR image.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-04-100-fr-dev",
+      "family_id": "demo-04-100-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-04-100",
+      "expected_fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "Tazorin\n100 mg\n20 gélules",
+      "raw_ocr_text": "Tazorin\n100 mg\n\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Tazorin\n100 mg\n\n20 gélules",
+      "fields": {
+        "product_name": "tazorin",
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20,
+        "observed_strengths": [
+          "100 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-04-100",
+      "candidate_ids": [
+        "demo-04-100",
+        "demo-04-250",
+        "demo-04-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 167.0,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-04-100-ar-dev",
+      "family_id": "demo-04-100-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-04-100",
+      "expected_fields": {
+        "strength": "100 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "تازورين\n١٠٠ ملغ\n٢٠ كبسولات",
+      "raw_ocr_text": "[baseline]\nتازورين\n\n[single block]\nتازورين\n\n[sparse text]\nتازورين\n\n| ملغ",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "تازورين",
+      "fields": {
+        "product_name": "تازورين\nتازورين\nتازورين\nملغ",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "ambiguous",
+      "matched_id": null,
+      "candidate_ids": [
+        "demo-04-100",
+        "demo-04-250",
+        "demo-04-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 746.75,
+      "warnings": [
+        "Low global contrast; provide a well-lit, sharp image if recognition fails.",
+        "Used bounded packaging-layout OCR fallback; raw passes and confirmed adjacent number/unit crops are preserved.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-04-250-fr-dev",
+      "family_id": "demo-04-250-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-04-250",
+      "expected_fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "Tazorin\n250 mg\n20 gélules",
+      "raw_ocr_text": "Tazorin\n250 mg\n\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Tazorin\n250 mg\n\n20 gélules",
+      "fields": {
+        "product_name": "tazorin",
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20,
+        "observed_strengths": [
+          "250 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-04-250",
+      "candidate_ids": [
+        "demo-04-250",
+        "demo-04-100",
+        "demo-04-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 156.71,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-04-250-ar-dev",
+      "family_id": "demo-04-250-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-04-250",
+      "expected_fields": {
+        "strength": "250 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "تازورين\n٢٥٠ ملغ\n٢٠ كبسولات",
+      "raw_ocr_text": "[baseline]\nتازورين\n‎Fo:‏ ملغ\n\n[single block]\nتازورين\n‎Fo:‏ ملغ\n\n[sparse text]\nتازورين\n\n‎lo‏ ملغ",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "تازورين\n‎Fo:‏ ملغ",
+      "fields": {
+        "product_name": "تازورين\nfo ملغ\nتازورين\nfo ملغ\nتازورين\nlo ملغ",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "ambiguous",
+      "matched_id": null,
+      "candidate_ids": [
+        "demo-04-100",
+        "demo-04-250",
+        "demo-04-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 855.96,
+      "warnings": [
+        "Used bounded packaging-layout OCR fallback; raw passes and confirmed adjacent number/unit crops are preserved.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-04-500-fr-dev",
+      "family_id": "demo-04-500-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-04-500",
+      "expected_fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "Tazorin\n500 mg\n20 gélules",
+      "raw_ocr_text": "Tazorin\n500 mg\n\n20 gélules",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Tazorin\n500 mg\n\n20 gélules",
+      "fields": {
+        "product_name": "tazorin",
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20,
+        "observed_strengths": [
+          "500 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-04-500",
+      "candidate_ids": [
+        "demo-04-500",
+        "demo-04-100",
+        "demo-04-250"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 118.94,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-04-500-ar-dev",
+      "family_id": "demo-04-500-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-04-500",
+      "expected_fields": {
+        "strength": "500 mg",
+        "form": "capsule",
+        "pack_size": 20
+      },
+      "expected_text": "تازورين\n٥٠٠ ملغ\n٢٠ كبسولات",
+      "raw_ocr_text": "[baseline]\nتازورين\n\n[single block]\nتازورين\n60.66 ملغ\n\n[sparse text]\nتازورين\n\n0 ملغ",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "تازورين",
+      "fields": {
+        "product_name": "تازورين\nتازورين\nتازورين",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": [
+          "0 mg",
+          "60.66 mg"
+        ]
+      },
+      "status": "ambiguous",
+      "matched_id": null,
+      "candidate_ids": [
+        "demo-04-100",
+        "demo-04-250",
+        "demo-04-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 742.84,
+      "warnings": [
+        "Used bounded packaging-layout OCR fallback; raw passes and confirmed adjacent number/unit crops are preserved.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified.",
+        "Multiple strengths are visible; product strength is unresolved."
+      ]
+    },
+    {
+      "image_id": "demo-05-100-fr-dev",
+      "family_id": "demo-05-100-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-05-100",
+      "expected_fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "Belmora\n100 mg\n12 comprimés",
+      "raw_ocr_text": "Belmora\n100 mg\n\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Belmora\n100 mg\n\n12 comprimés",
+      "fields": {
+        "product_name": "belmora",
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12,
+        "observed_strengths": [
+          "100 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-05-100",
+      "candidate_ids": [
+        "demo-05-100",
+        "demo-05-250",
+        "demo-05-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 211.73,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-05-100-ar-dev",
+      "family_id": "demo-05-100-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-05-100",
+      "expected_fields": {
+        "strength": "100 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "بيلمورا\n١٠٠ ملغ\n١٢ أقراص",
+      "raw_ocr_text": "بيلمورا\n\n‎١‏ أقراص",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "بيلمورا\n\n‎١‏ أقراص",
+      "fields": {
+        "product_name": "بيلمورا",
+        "strength": null,
+        "form": "tablet",
+        "pack_size": 1,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [
+        "demo-05-100",
+        "demo-05-250",
+        "demo-05-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 543.73,
+      "warnings": [
+        "Low global contrast; provide a well-lit, sharp image if recognition fails.",
+        "Selected orthogonal rotation 90 degrees; word boxes reference that OCR image.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-05-250-fr-dev",
+      "family_id": "demo-05-250-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-05-250",
+      "expected_fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "Belmora\n250 mg\n12 comprimés",
+      "raw_ocr_text": "Belmora\n250 mg\n\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Belmora\n250 mg\n\n12 comprimés",
+      "fields": {
+        "product_name": "belmora",
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12,
+        "observed_strengths": [
+          "250 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-05-250",
+      "candidate_ids": [
+        "demo-05-250",
+        "demo-05-100",
+        "demo-05-500"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 157.49,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-05-250-ar-dev",
+      "family_id": "demo-05-250-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-05-250",
+      "expected_fields": {
+        "strength": "250 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "بيلمورا\n٢٥٠ ملغ\n١٢ أقراص",
+      "raw_ocr_text": "At ISA\n\n:01 8\nEro6(|",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "At ISA\n\n:01 8\nEro6(|",
+      "fields": {
+        "product_name": "at isa\n01 8\nero6",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [],
+      "name_alias_present": false,
+      "processing_time_ms": 516.88,
+      "warnings": [
+        "Selected orthogonal rotation 90 degrees; word boxes reference that OCR image.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "demo-05-500-fr-dev",
+      "family_id": "demo-05-500-fr-dev",
+      "language": "fr",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-05-500",
+      "expected_fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "Belmora\n500 mg\n12 comprimés",
+      "raw_ocr_text": "Belmora\n500 mg\n\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Belmora\n500 mg\n\n12 comprimés",
+      "fields": {
+        "product_name": "belmora",
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12,
+        "observed_strengths": [
+          "500 mg"
+        ]
+      },
+      "status": "matched",
+      "matched_id": "demo-05-500",
+      "candidate_ids": [
+        "demo-05-500",
+        "demo-05-100",
+        "demo-05-250"
+      ],
+      "name_alias_present": true,
+      "processing_time_ms": 130.42,
+      "warnings": [
+        "Demonstration catalogue: fictional products; real-world coverage is not established."
+      ]
+    },
+    {
+      "image_id": "demo-05-500-ar-dev",
+      "family_id": "demo-05-500-ar-dev",
+      "language": "ar",
+      "condition": "clear",
+      "kind": "synthetic_render",
+      "expected_product_id": "demo-05-500",
+      "expected_fields": {
+        "strength": "500 mg",
+        "form": "tablet",
+        "pack_size": 12
+      },
+      "expected_text": "بيلمورا\n٥٠٠ ملغ\n١٢ أقراص",
+      "raw_ocr_text": "At ISA\n\nETo6(|",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "At ISA\n\nETo6(|",
+      "fields": {
+        "product_name": "at isa\neto6",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [],
+      "name_alias_present": false,
+      "processing_time_ms": 566.56,
+      "warnings": [
+        "Low global contrast; provide a well-lit, sharp image if recognition fails.",
+        "Selected orthogonal rotation 90 degrees; word boxes reference that OCR image.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "negative-unknown-dev",
+      "family_id": "negative-unknown-dev",
+      "language": "fr",
+      "condition": "unknown",
+      "kind": "synthetic_render",
+      "expected_product_id": null,
+      "expected_fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "expected_text": "Xylophene\n750 mg\n20 comprimés",
+      "raw_ocr_text": "XylLophene\n750 mg\n20 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "XylLophene\n750 mg\n20 comprimés",
+      "fields": {
+        "product_name": "xyllophene",
+        "strength": "750 mg",
+        "form": "tablet",
+        "pack_size": 20,
+        "observed_strengths": [
+          "750 mg"
+        ]
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [],
+      "name_alias_present": false,
+      "processing_time_ms": 826.0,
+      "warnings": [
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "negative-nonmed-dev",
+      "family_id": "negative-nonmed-dev",
+      "language": "fr",
+      "condition": "nonmed",
+      "kind": "synthetic_render",
+      "expected_product_id": null,
+      "expected_fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "expected_text": "Bonjour\nSavon de toilette",
+      "raw_ocr_text": "[baseline]\nBonjour\nSavon de toilette\n\n[single block]\nBonjour\nSavon de toilette\n\n[sparse text]\nBonjour\n\nSavon de toilette",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Bonjour\nSavon de toilette",
+      "fields": {
+        "product_name": "bonjour\nsavon de toilette\nbonjour\nsavon de toilette\nbonjour\nsavon de toilette",
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [],
+      "name_alias_present": false,
+      "processing_time_ms": 823.66,
+      "warnings": [
+        "Used bounded packaging-layout OCR fallback; raw passes and confirmed adjacent number/unit crops are preserved.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "negative-conflict-dev",
+      "family_id": "negative-conflict-dev",
+      "language": "fr",
+      "condition": "conflict",
+      "kind": "synthetic_render",
+      "expected_product_id": null,
+      "expected_fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "expected_text": "Zefrano\n900 mg\n12 comprimés",
+      "raw_ocr_text": "Zefrano\n900 mg\n12 comprimés",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "Zefrano\n900 mg\n12 comprimés",
+      "fields": {
+        "product_name": "zefrano",
+        "strength": "900 mg",
+        "form": "tablet",
+        "pack_size": 12,
+        "observed_strengths": [
+          "900 mg"
+        ]
+      },
+      "status": "unknown",
+      "matched_id": null,
+      "candidate_ids": [
+        "demo-01-100",
+        "demo-01-250",
+        "demo-01-500"
+      ],
+      "name_alias_present": false,
+      "processing_time_ms": 126.74,
+      "warnings": [
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    },
+    {
+      "image_id": "negative-blank-dev",
+      "family_id": "negative-blank-dev",
+      "language": "fr",
+      "condition": "blank",
+      "kind": "synthetic_render",
+      "expected_product_id": null,
+      "expected_fields": {
+        "strength": null,
+        "form": null,
+        "pack_size": null
+      },
+      "expected_text": "",
+      "raw_ocr_text": "",
+      "transcription_source": "Exact generator input; not a manual photograph transcription",
+      "primary_ocr_text": "",
+      "fields": {
+        "product_name": null,
+        "strength": null,
+        "form": null,
+        "pack_size": null,
+        "observed_strengths": []
+      },
+      "status": "unreadable",
+      "matched_id": null,
+      "candidate_ids": [],
+      "name_alias_present": false,
+      "processing_time_ms": 224.7,
+      "warnings": [
+        "Low global contrast; provide a well-lit, sharp image if recognition fails.",
+        "Limited catalogue includes fictional demonstration records and sourced French references; country and artwork version are not verified."
+      ]
+    }
+  ]
+}
